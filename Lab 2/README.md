@@ -15,6 +15,12 @@ If the top button is pressed, the screen will display the time to/since the sunr
 
 <img src="/Lab 2/IMG_0095.jpg" alt="system diagram" width="720"/>
 
+
+
+
+_____________________________________________________________________________________________________________________________________
+
+
 Does it feel like time is moving strangely during this semester?
 
 For our first Pi project, we will pay homage to the [timekeeping devices of old](https://en.wikipedia.org/wiki/History_of_timekeeping_devices) by making simple clocks.
