@@ -1,3 +1,4 @@
+#(The code for this assigment is in the file suntime.py)
 # Interactive Prototyping: The Clock of Pi
 
 Does it feel like time is moving strangely during this semester?
