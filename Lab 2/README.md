@@ -9,10 +9,11 @@ The clock in this experiment is shown relative to the sunset and sunrise. The ho
 
 If the top button is pressed, the screen will display the time to/since the sunset in the day. The screen also turns green.
 
-
+<img src="/Lab 2/IMG_0094.jpg" alt="system diagram" width="720"/>
 
 If the top button is pressed, the screen will display the time to/since the sunrise in the day. The screen also turns red.
 
+<img src="/Lab 2/IMG_0095.jpg" alt="system diagram" width="720"/>
 
 Does it feel like time is moving strangely during this semester?
 
