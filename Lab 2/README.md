@@ -1,6 +1,19 @@
 #(The code for this assigment is in the file suntime.py)
 # Interactive Prototyping: The Clock of Pi
 
+# Storyboard
+
+The clock in this experiment is shown relative to the sunset and sunrise. The homescreen shows the functions of the top button and the botton. 
+
+<img src="/Lab 2/IMG_0093.jpg" alt="system diagram" width="720"/>
+
+If the top button is pressed, the screen will display the time to/since the sunset in the day. The screen also turns green.
+
+
+
+If the top button is pressed, the screen will display the time to/since the sunrise in the day. The screen also turns red.
+
+
 Does it feel like time is moving strangely during this semester?
 
 For our first Pi project, we will pay homage to the [timekeeping devices of old](https://en.wikipedia.org/wiki/History_of_timekeeping_devices) by making simple clocks.
