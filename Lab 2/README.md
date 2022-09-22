@@ -16,7 +16,11 @@ If the top button is pressed, the screen will display the time to/since the sunr
 
 <img src="/Lab 2/IMG_0095.jpg" alt="system diagram" width="720"/>
 
+#Enhancement from the previous version
 
+Introduced horizon into the visual. The visual shows East and West directions and a small yellow block indicates the postion of the sun in the sky.
+
+<img src="/Lab 2/IMG_EE100FAB355A-1.jpeg" alt="system diagram" width="720"/>
 
 
 _____________________________________________________________________________________________________________________________________
