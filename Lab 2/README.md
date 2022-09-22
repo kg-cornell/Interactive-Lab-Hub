@@ -22,7 +22,9 @@ Introduced horizon into the visual. The visual shows East and West directions an
 
 <img src="/Lab 2/IMG_EE100FAB355A-1.jpeg" alt="system diagram" width="720"/>
 
+#Beta testing video of the position of the sun in the sky and the time with respect to sunrise and sunset
 
+[![Watch the video](https://github.com/kg-cornell/Interactive-Lab-Hub/blob/fe4535bcc1106c2ae21337bcbcbb3cecc6fb073d/Lab%202/Screen%20Shot%202022-09-21%20at%2011.38.13%20PM.png)](https://youtu.be/QhPgPFhYPPQ)
 _____________________________________________________________________________________________________________________________________
 
 
