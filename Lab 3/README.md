@@ -107,9 +107,9 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 <img src="/Lab 3/IMG_0100.jpg" alt="system diagram" width="720"/>
 
-<img src="/Lab 3/IMG_0102.jpg" alt="system diagram" width="720"/>
+<img src="/Lab 3/IMG_0101.jpg" alt="system diagram" width="720"/>
 
-<img src="/Lab 3/IMG_0103.jpg" alt="system diagram" width="720"/>
+<img src="/Lab 3/IMG_0102.jpg" alt="system diagram" width="720"/>
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
