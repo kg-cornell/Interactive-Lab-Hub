@@ -1,4 +1,5 @@
 #Team: Kalyan Gautham, Calvin Tirrell, Tyler Bershad (For part 1)
+
 Individual assignment (for part 2)
 
 # Chatterboxes
@@ -174,6 +175,9 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 
 [![Watch the video](https://github.com/kg-cornell/Interactive-Lab-Hub/blob/41845ad8b23bd9c04f75c9337e9a2646f67e9e4f/Lab%203/IMG_3715.PNG)](https://youtu.be/YBlyjpkifpk)
+
+[![Watch the video](https://github.com/kg-cornell/Interactive-Lab-Hub/blob/3037e5775025bda82151ed711263d1691136d11d/Lab%203/Screen%20Shot%202022-10-05%20at%204.07.48%20PM.png)](https://youtu.be/9ykzmcCQ5I4)
+
 
 Answer the following:
 
