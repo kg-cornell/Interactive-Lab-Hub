@@ -141,6 +141,22 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
 3. Make a new storyboard, diagram and/or script based on these reflections.
 
+
+#Enhanced concept
+
+The idea is to bring utility to the interaction as suggested by the reviewer in Part 1. I have made use of the temperature sensor on the raspberry pi. The utility is to understand whether the pi is over heated or not by benchmarking the maximum heat that the pi can take.
+
+The pi asks what does the user wants to know.
+<img src="/Lab 3/IMG_0106.jpg" alt="system diagram" width="720"/>
+
+
+The user responds by asking whether the pi is over heated
+<img src="/Lab 3/IMG_0106.jpg" alt="system diagram" width="720"/>
+
+
+The pi responds to the user with its current temperature value and the amount of heat that it can further take before burning out.
+<img src="/Lab 3/IMG_0106.jpg" alt="system diagram" width="720"/>
+
 ## Prototype your system
 
 The system should:
@@ -155,21 +171,24 @@ The system should:
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
+
+[![Watch the video](https://github.com/kg-cornell/Interactive-Lab-Hub/blob/41845ad8b23bd9c04f75c9337e9a2646f67e9e4f/Lab%203/IMG_3715.PNG)](https://youtu.be/YBlyjpkifpk)
+
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+The detection of the values from the sensor is decently accurate. However, I'm not sure whether the values will be accurate beyond a range. 
 
 ### What worked well about the controller and what didn't?
 
-\*\**your answer here*\*\*
+The possibility of usage of a wide range of verbiage by the user can lead to unreliable results. The code should be more optimized with NLP solutions.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
+The input to the system can be drastically improved after testing out the interactions with multiple users. Having to continuously run a script that can look for a wake word would be helpful. The wake word when spoken by the user can initiate a python script respond back. This would produce a system similar to Google Home/Alexa.
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
+I think sensing room temperature, sound and light levels in the room can also be helpful to the users.
 
