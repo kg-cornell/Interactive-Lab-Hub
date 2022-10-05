@@ -177,7 +177,7 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-The detection of the values from the sensor is decently accurate. However, I'm not sure whether the values will be accurate beyond a range. 
+The detection of the values from the sensor is decently accurate. However, I'm not sure whether the values will be accurate beyond a range. Also, it would be great to constantly check the CPU temperature levels and trigger a voice from the computer automatically to ask the user to shut the system down at the time of over heating.
 
 ### What worked well about the controller and what didn't?
 
