@@ -1,4 +1,5 @@
-#Team: Kalyan Gautham, Calvin Tirrell, Tyler Bershad
+#Team: Kalyan Gautham, Calvin Tirrell, Tyler Bershad (For part 1)
+Individual assignment (for part 2)
 
 # Chatterboxes
 **NAMES OF COLLABORATORS HERE**
