@@ -240,6 +240,39 @@ LAB PART 2
 
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
 
+The idea is to indicate that the toilet seat is open and let the user know that they need to shut the seat. When the user enters the washroom in the below sketch, the seat is closed.
+
+<img src="Lab 4/IMG_0115.jpg" alt="system diagram" width="720"/>
+
+This the sketch for how the tool is connected. Raspberry pi is connected to the a speaker and touch sensor. The touch sensor is connected to a wire and then the wire is connected to a conductor strip that is one the seat.
+
+<img src="Lab 4/IMG_0116.jpg" alt="system diagram" width="720"/>
+
+user enters the washroom
+<img src="Lab 4/IMG_0117.jpg" alt="system diagram" width="720"/>
+
+User sits on the toilet and touches the conductor
+<img src="Lab 4/IMG_0118.jpg" alt="system diagram" width="720"/>
+
+User get up and the speaker says "The seat is open. Please close it."
+<img src="Lab 4/IMG_0119.jpg" alt="system diagram" width="720"/>
+
+
+
+
+<img src="Lab 4/Screen Shot 2022-10-17 at 9.50.29 PM.png" alt="system diagram" width="720"/>
+
+<img src="Lab 4/Screen Shot 2022-10-17 at 9.49.51 PM.png" alt="system diagram" width="720"/>
+
+<img src="Lab 4/Screen Shot 2022-10-17 at 9.50.19 PM.png" alt="system diagram" width="720"/>
+
+<img src="Lab 4/Screen Shot 2022-10-17 at 9.50.03 PM.png" alt="system diagram" width="720"/>
+
+<img src="Lab 4/Screen Shot 2022-10-17 at 9.50.42 PM.png" alt="system diagram" width="720"/>
+
+<img src="Lab 4/Screen Shot 2022-10-17 at 9.50.53 PM.png" alt="system diagram" width="720"/>
+
+
 ### Part E (Optional)
 ### Servo Control with Joystick
 
@@ -277,3 +310,4 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
 
+[![Watch the video](https://github.com/kg-cornell/Interactive-Lab-Hub/blob/30f2b4cf9dfdbcefe09aaf66163152651586b330/Lab%204/Screen%20Shot%202022-10-17%20at%2010.44.29%20PM.png)](https://www.youtube.com/watch?v=tlVcPoCJXQU)
