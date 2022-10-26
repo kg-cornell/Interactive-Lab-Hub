@@ -8,6 +8,16 @@ Your **observant device** could, for example, count items, find objects, recogni
 
 This lab will help you think through the design of observant systems, particularly corner cases that the algorithms needs to be aware of.
 
+<img src="/Lab 5/Screen Shot 2022-10-20 at 9.18.08 AM.png" alt="system diagram" width="720"/>
+
+<img src="/Lab 5/Screen Shot 2022-10-20 at 9.19.38 AM.png" alt="system diagram" width="720"/>
+
+<img src="/Lab 5/Screen Shot 2022-10-20 at 9.22.03 AM.png" alt="system diagram" width="720"/>
+
+<img src="/Lab 5/Screen Shot 2022-10-20 at 9.24.09 AM.png" alt="system diagram" width="720"/>
+
+<img src="/Lab 5/Screen Shot 2022-10-20 at 9.24.31 AM.png" alt="system diagram" width="720"/>
+
 ## Prep
 
 1.  Pull the new Github Repo.
