@@ -276,8 +276,17 @@ During the lecture, we mentioned questions to help characterize a material:
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
+[![Watch the video](https://github.com/kg-cornell/Interactive-Lab-Hub/blob/1c3df8835ddca5c48de1f237ae30aab24d267251/Lab%205/Screen%20Shot%202022-11-01%20at%2012.53.54%20AM.png)](https://youtu.be/IjrrBrxJ_5w)
+
+
+[![Watch the video](https://github.com/kg-cornell/Interactive-Lab-Hub/blob/7c8ad751c28da4b0ca0e14c72b113d8f581d8885/Lab%205/Screen%20Shot%202022-11-01%20at%2012.58.46%20AM.png)](https://youtu.be/OzZyvlOJ2ug)
+
+
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+
+
+[![Watch the video](https://github.com/kg-cornell/Interactive-Lab-Hub/blob/de80c0f38e740c85e212463cf7453e7ec850a924/Lab%205/Screen%20Shot%202022-11-01%20at%201.00.16%20AM.png)](https://youtu.be/VuU69PD0Ej0)
