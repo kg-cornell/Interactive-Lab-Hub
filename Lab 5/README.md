@@ -239,21 +239,27 @@ This might take a while to get fully installed. After installation, connect your
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+The idea is to raise an alarm when the baby is in the cradle is missing. Raspberry Pi is connected to a camera and object detection python code is run on the pi. The Pi remains silent as long as the camera detects the baby in its field. When the baby moves away from the field, the speaker shouts out "Attention! the baby needs attention!".
+
+
 ### Part C
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
-1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+1. What it is supposed to do? - The camera is supposed to raise an alarm when the baby is missing from the cradle. 
+2. When does it fail? - It fails when there is not enough light but the baby is still in the cradle.
+3. When it fails, why does it fail? As there is not enough light, the camera is not able to detect any object (the baby) and raises false alarm.
+4. Based on the behavior you have seen, what other scenarios could cause problems? 
+    a) One of the other scenarios is that the camera can detect that the baby is present in the cradle even if there is just a baby doll in the cradle. The camera cannot differenciate between the human and baby doll. 
+    b) It can also fail when there is an obstruction to the camera.
+    c) It system can fail when the baby completely is covered into a blanket
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
-1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+1. Are they aware of the uncertainties in the system? - The users (parents) may not be aware of the uncertanities in the beginning but will evenutally discover them thorugh false alarms.
+2. How bad would they be impacted by a miss classification? - False postitives (i.e. is the baby is not detected in the cradle when it is in the cradle) of this product will not affect the users a lot. However, false negative (i.e. detecting the baby is in the cradle when the baby is not in the cradle) will significantly have negative effects.
+3. How could change your interactive system to address this? - The ineractive system can use multiple cameras on the cradle to avoid certain kind of false alarms. If there is an obstruction to one camera but the other camera sees the baby, it should still not raise the alarm.
+4. Are there optimizations you can try to do on your sense-making algorithm? - A combination of object detection and contour detection can be used to strengthen the logic. We can also use temperature and size detection to be more acurate.
 
 ### Part D
 ### Characterize your own Observant system
