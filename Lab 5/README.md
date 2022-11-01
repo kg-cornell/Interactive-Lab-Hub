@@ -8,15 +8,7 @@ Your **observant device** could, for example, count items, find objects, recogni
 
 This lab will help you think through the design of observant systems, particularly corner cases that the algorithms need to be aware of.
 
-<img src="/Lab 5/Screen Shot 2022-10-20 at 9.18.08 AM.png" alt="system diagram" width="720"/>
 
-<img src="/Lab 5/Screen Shot 2022-10-20 at 9.19.38 AM.png" alt="system diagram" width="720"/>
-
-<img src="/Lab 5/Screen Shot 2022-10-20 at 9.22.03 AM.png" alt="system diagram" width="720"/>
-
-<img src="/Lab 5/Screen Shot 2022-10-20 at 9.24.09 AM.png" alt="system diagram" width="720"/>
-
-<img src="/Lab 5/Screen Shot 2022-10-20 at 9.24.31 AM.png" alt="system diagram" width="720"/>
 
 ## Prep
 
@@ -111,6 +103,20 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 ```
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
+
+Below is the screenshot of contour detection. It can be useful to auto detect designs of a space or dimensions of various objects in a space.
+<img src="/Lab 5/Screen Shot 2022-10-20 at 9.18.08 AM.png" alt="system diagram" width="720"/>
+
+Below is the screenshot of face detection. It is useful for security purposes in any bulding or even for managing attendance in classrooms.
+<img src="/Lab 5/Screen Shot 2022-10-20 at 9.19.38 AM.png" alt="system diagram" width="720"/>
+
+Below is a screenshot of optical flow. It is useful for displaying the trajectory of a ball in sports such as cricket and baseball.
+<img src="/Lab 5/Screen Shot 2022-10-20 at 9.22.03 AM.png" alt="system diagram" width="720"/>
+
+Below is the screenshot of object detection. It is useful for counting number of cars moving at any point in time on a road.
+<img src="/Lab 5/Screen Shot 2022-10-20 at 9.24.09 AM.png" alt="system diagram" width="720"/>
+
+<img src="/Lab 5/Screen Shot 2022-10-20 at 9.24.31 AM.png" alt="system diagram" width="720"/>
 
 #### Filtering, FFTs, and Time Series data. 
 Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU or Microphone data stream could create a simple activity classifier between walking, running, and standing.
@@ -266,18 +272,21 @@ For example:
 
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
-* What can you use X for?
-* What is a good environment for X?
-* What is a bad environment for X?
-* When will X break?
-* When it breaks how will X break?
+* What can you use X for? - The idea is useful for parents to keep an eye on toddlers not coming out of their beds.
+* What is a good environment for X? - It needs good lighting or cameras that can detect objects in low light
+* What is a bad environment for X? - the system breaks if the cameras are not good enough to detect objects in low light.
+* When will X break? - It will also break when there is an obstable to the camera.
+* When it breaks how will X break? - It will keep raising false alarms. It would say that the toddler is not in the bed even if the toddler is in bed.
 * What are other properties/behaviors of X?
 * How does X feel?
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
+Below is a time when the sytem works well.
+
 [![Watch the video](https://github.com/kg-cornell/Interactive-Lab-Hub/blob/1c3df8835ddca5c48de1f237ae30aab24d267251/Lab%205/Screen%20Shot%202022-11-01%20at%2012.53.54%20AM.png)](https://youtu.be/IjrrBrxJ_5w)
 
+Below is a time when the system will break.
 
 [![Watch the video](https://github.com/kg-cornell/Interactive-Lab-Hub/blob/7c8ad751c28da4b0ca0e14c72b113d8f581d8885/Lab%205/Screen%20Shot%202022-11-01%20at%2012.58.46%20AM.png)](https://youtu.be/OzZyvlOJ2ug)
 
@@ -288,5 +297,6 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
 
+Below is a video when the system worked well with a user test.
 
 [![Watch the video](https://github.com/kg-cornell/Interactive-Lab-Hub/blob/de80c0f38e740c85e212463cf7453e7ec850a924/Lab%205/Screen%20Shot%202022-11-01%20at%201.00.16%20AM.png)](https://youtu.be/VuU69PD0Ej0)
