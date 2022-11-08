@@ -96,6 +96,13 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
+1. Team updates: In work spaces which have multiple streams of work, but interconnected, this tool can be used as a live update platform.
+2. Streaming data: If the HQ wants to know the live sales updates from multiple stores, this tool can be used for updated the day's total sales by store.
+3. Hospital bed vacancy: this tool can be used to automate the bed vacancies in busy hospitals and share the same with other near by hospitals for any immediate requirements.
+4. Internal secured messaging system: It can be used as a secured messaging system internally in an organization
+5. Building helpdesk: The tool can be used for internal helpdesk communations in a building or conceirge and maintenance services 
+
+
 ### Part C
 ### Streaming a Sensor
 
@@ -117,7 +124,27 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
 
+
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
+
+
+
+<img src="/Lab 6/Screen Shot 2022-11-03 at 9.27.48 AM.png" alt="system diagram" width="720"/>
+
+
+
+<img src="/Lab 6/Screen Shot 2022-11-03 at 9.28.20 AM.png" alt="system diagram" width="720"/>
+
+
+
+<img src="/Lab 6/Screen Shot 2022-11-03 at 9.29.36 AM.png" alt="system diagram" width="720"/>
+
+
+
+<img src="/Lab 6/Screen Shot 2022-11-03 at 9.30.53 AM.png" alt="system diagram" width="720"/>
+
+
+<img src="/Lab 6/Screen Shot 2022-11-07 at 7.04.13 PM.png" alt="system diagram" width="720"/>
 
 
 ### Part D
@@ -152,12 +179,25 @@ Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
 
 
+<img src="/Lab 6/Screen Shot 2022-11-06 at 8.35.29 PM.png" alt="system diagram" width="720"/>
+
+<img src="/Lab 6/Screen Shot 2022-11-06 at 8.48.56 PM.png" alt="system diagram" width="720"/>
+
+<img src="/Lab 6/Screen Shot 2022-11-06 at 8.50.43 PM.png" alt="system diagram" width="720"/>
+
+<img src="/Lab 6/Screen Shot 2022-11-06 at 8.50.54 PM.png" alt="system diagram" width="720"/>
+
+
+
 ### Part E
 ### Make it your own
 
 Find at least one class (more are okay) partner, and design a distributed application together based on the exercise we asked you to do in this lab.
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
+
+
+
 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
@@ -167,3 +207,31 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
+
+1. We are creating a digitized Marco Polo game where one person is trying to find the others but is blindfolded. Instead, they must speak to the device and ask "Marco". The device on the others will say "Polo" and then the seeker will be told how far the closest person is. When the seeker touches the hider, the speaker will win. This device could be used to program multiple games and digitize the experience so that the rules are enforced automatically and setup will be done without much effort.
+
+<img src="/Lab 6/Screen Shot 2022-11-07 at 7.04.13 PM.png" alt="system diagram" width="720"/>
+
+<img src="/Lab 6/Screen Shot 2022-11-07 at 7.04.25 PM.png" alt="system diagram" width="720"/>
+
+<img src="/Lab 6/Screen Shot 2022-11-07 at 7.04.38 PM.png" alt="system diagram" width="720"/>
+
+The picture above shows what sensors the device uses. Number 2 details how each are used to play the game and the mechanisms by which they work.
+
+Marco: Seeker
+
+Polo: Hiders
+
+<img src="/Lab 6/IMG_0122.jpg" alt="system diagram" width="720"/>
+
+
+2. We will be using 3 sensors: the webcam, the proximity sensor, and the capactive touch sensor. The webcam will be capturing input when the seeker asks for where the hiders are. It will have to correctly capture when the seeker says "Marco". It will then have to use the proximity sensor to calculate how far the closest user is and use the speaker on the webcam to state how far they are. Lastly, it will end the game when the seeker touches a hider.
+
+https://drive.google.com/file/d/13cxp90EBnOah35ULxEcjy60FtVKCCovh/view?usp=share_link
+
+https://drive.google.com/file/d/1KZjAk3YIW8_F6TN2pxNzOP_O5KNP35nJ/view?usp=share_link
+
+
+3. We demoed two of the scenarios: the interaction of the Seeker who says "Marco" to their machine and the interaction once the Seeker finds and touches one of the hiders. When the Seeker says "Marco", the proximity sensor calculates the closest Hider and tells the Seeker how far they are. The Hider's sensors will subsequently say "Polo" in response. In the second scenario, the Seeker finds and touches a Hider which ends the game.
+
+4. One limitation of our scenario is that the proximity sensors do not sense where another sensor is, but instead senses how far an object is in a particular direction. Unfortunately, this is not how the game should actually work, but the sensor we have does not work in that manner. In our demo, we used a "Wizard of Oz" demo to showcase how it should work and as a proof concept but the next steps would be to create it the way we intended it to work.
