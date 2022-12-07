@@ -42,10 +42,10 @@ https://github.com/kg-cornell/Interactive-Lab-Hub/tree/Fall2022/Final-project/me
     A. https://www.electronicshub.org/raspberry-pi-l298n-interface-tutorial-control-dc-motor-l298n-raspberry-pi/
     B. https://www.jameco.com/jameco/workshop/circuitnotes/raspberry-pi-circuit-note.html
 
-###Initial code[
+### Initial code[
 Final-project/IDD-final-project-v1.py](https://github.com/kg-cornell/Interactive-Lab-Hub/blob/23438d64bf083e2f3afe5648efca99797dbeb315/Final-project/IDD-final-project-v1.py)
 
-###Final code
+### Final code
 https://github.com/kg-cornell/Interactive-Lab-Hub/blob/23438d64bf083e2f3afe5648efca99797dbeb315/Final-project/Final_code_voice_car.py
 
 
@@ -57,10 +57,10 @@ https://github.com/kg-cornell/Interactive-Lab-Hub/blob/23438d64bf083e2f3afe5648e
 
 
 ## What didn't work as expected?
-1. The voice commands are not recognized well when around a noisy environment.
+1. The voice commands are not recognized well when around a noisy environment. There were also a few times when the voice read in two commands consecutively and then executed them consecutively. We are not totally sure why this happened as it was difficult to replicate, but it did happen a few times so further investigation may need to be done to determine the source of this. 
 2. Raspberry Pi needs a stronger batter source which could not fit well on the chassis of the car. Hence, we used a power cord.
 3. The voice commands do not recognize all accents.
-4. There is a delay between the time the command is delivered by the user and the time the action is executed by the Pi.
+4. There is a delay between the time the command is delivered by the user and the time the action is executed by the Pi. It was difficult to implement was looping the code so that a user could keep telling it commands. The code could lag at times especially after being looped several times, so a more efficient way would be needed to loop for the interaction to feel smoother.
 5. The battery back for the controller and motors drains out quickly.
 
 ## Iterations that failed
@@ -82,3 +82,4 @@ https://github.com/kg-cornell/Interactive-Lab-Hub/blob/23438d64bf083e2f3afe5648e
 3. The speed of the car should be determined by simpler commands such as speed up or speed down with increments of 2 miles/hr speed.
 4. The range of the car should be determined so that the car does not move beyond certain distance from the user.
 5. The base location should be determined so that the car returns to the base when no further commands or delivered or when the battery is about to drain.
+6. As it stands right now, the user has to input their command during a time frame where the mic is actually taking in a command. Having the mic always listening so that it executes whatever the user’s latest command would likely be the most natural way for the user to interact with the car.
