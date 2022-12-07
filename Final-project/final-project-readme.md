@@ -9,7 +9,26 @@ We all may have used Remote Controlled Cars, which are controlled by a physical 
 ## How does it work?
 
 
+<img src="/Final-project/IMG_0123.jpg" alt="system diagram" width="720"/>
+
+
+Below are the commands the car understands and acts on:
+1. **Go** : Moves forward
+2. **Right** : Turns right
+3. **Left** : Turns left
+4. **Back** : Moves back
+5. **Sleep** : Stops
+
 ## Work in progress pictures/videos
+
+<img src="/Final-project/Image 2022-12-05 at 2.46.08 PM (1)" alt="system diagram" width="720"/>
+
+<img src="/Final-project/Image 2022-11-30 at 12.12.00 PM (1)" alt="system diagram" width="720"/>
+
+[![Watch the video](https://github.com/kg-cornell/Interactive-Lab-Hub/blob/06c7cadb0a1af8d4c00d28a21f763cdbb1e804d5/Final-project/media%20files/Screen%20Shot%202022-12-07%20at%209.58.11%20AM.png)](https://youtu.be/n-2-DbZGkWk)
+
+### Other pictures and videos
+https://github.com/kg-cornell/Interactive-Lab-Hub/tree/Fall2022/Final-project/media%20files
 
 
 ## How was it built?
@@ -22,7 +41,13 @@ We all may have used Remote Controlled Cars, which are controlled by a physical 
 7. We referred to online resources for building the motor controld with a controller and raspberry pi. Below are a couple of those liks that helped us build the car
     A. https://www.electronicshub.org/raspberry-pi-l298n-interface-tutorial-control-dc-motor-l298n-raspberry-pi/
     B. https://www.jameco.com/jameco/workshop/circuitnotes/raspberry-pi-circuit-note.html
-    
+
+###Initial code[
+Final-project/IDD-final-project-v1.py](https://github.com/kg-cornell/Interactive-Lab-Hub/blob/23438d64bf083e2f3afe5648efca99797dbeb315/Final-project/IDD-final-project-v1.py)
+
+###Final code
+https://github.com/kg-cornell/Interactive-Lab-Hub/blob/23438d64bf083e2f3afe5648efca99797dbeb315/Final-project/Final_code_voice_car.py
+
 
 ## What works well?
 1. The controller is well connected to the four motors.
