@@ -4,17 +4,25 @@ Team: Calvin Tirrell, Jason Kwan, Kalyan Gautham
 
 ## Concept
 
-We all may have used Remote Controlled Cars, which are controlled by a physical console. 
-However, not everyone would be able to use their hands (owing to disabilities) for controlled these cars.
-We have built Voice Controlled Car for these people. This car is controlled by voice commands.
+We all may have used Remote Controlled Cars, which are controlled by a physical console. However, not everyone would be able to use their hands (owing to disabilities) for controlled these cars. We have built Voice Controlled Car for these people. This car is controlled by voice commands.
 
 ## How does it work?
 
 
+## Work in progress pictures/videos
+
 
 ## How was it built?
-
-
+1. Chassis and 4 wheels were purchased as a kit
+2. Motors and controller were purchased from Amazon
+3. Partial wiring was used from IDD kit that was supplied to all students
+4. Some wiring and screws were procured from Maker Lab
+5. Soldering and crafting the body where needed were done in Maker Lab
+6. Niti Parikh and Tyler Bershad guided us in some of the car building activities
+7. We referred to online resources for building the motor controld with a controller and raspberry pi. Below are a couple of those liks that helped us build the car
+    A. https://www.electronicshub.org/raspberry-pi-l298n-interface-tutorial-control-dc-motor-l298n-raspberry-pi/
+    B. https://www.jameco.com/jameco/workshop/circuitnotes/raspberry-pi-circuit-note.html
+    
 
 ## What works well?
 1. The controller is well connected to the four motors.
