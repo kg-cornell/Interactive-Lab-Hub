@@ -9,7 +9,7 @@ We all may have used Remote Controlled Cars, which are controlled by a physical 
 ## How does it work?
 
 
-<img src="/Final-project/IMG_0123.jpg" alt="system diagram" width="720"/>
+<img src="/Final-project/media files/IMG_0123.jpg" alt="system diagram" width="720"/>
 
 
 Below are the commands the car understands and acts on:
@@ -21,9 +21,9 @@ Below are the commands the car understands and acts on:
 
 ## Work in progress pictures/videos
 
-<img src="/Final-project/Image 2022-12-05 at 2.46.08 PM (1)" alt="system diagram" width="720"/>
+<img src="/Final-project/media files/Image 2022-12-05 at 2.46.08 PM (1)" alt="system diagram" width="720"/>
 
-<img src="/Final-project/Image 2022-11-30 at 12.12.00 PM (1)" alt="system diagram" width="720"/>
+<img src="/Final-project/media files/Image 2022-11-30 at 12.12.00 PM (1)" alt="system diagram" width="720"/>
 
 [![Watch the video](https://github.com/kg-cornell/Interactive-Lab-Hub/blob/06c7cadb0a1af8d4c00d28a21f763cdbb1e804d5/Final-project/media%20files/Screen%20Shot%202022-12-07%20at%209.58.11%20AM.png)](https://youtu.be/n-2-DbZGkWk)
 
