@@ -48,6 +48,7 @@ Final-project/IDD-final-project-v1.py](https://github.com/kg-cornell/Interactive
 ### Final code
 https://github.com/kg-cornell/Interactive-Lab-Hub/blob/23438d64bf083e2f3afe5648efca99797dbeb315/Final-project/Final_code_voice_car.py
 
+For our code, the first iteration was figuring out how to activate the motors. With some help from Tyler, we were able to figure out which pins we should connect to in order to be able to reach both motors with one battery pack and to get the code to run properly. After some testing and soldering the wires appropriately, we implemented the voice activation, which we had utilized in previous labs. After some testing, we decided that the words “go”, “right”, “left”, “back”, and “sleep” were the best words to use. We had the car run for a few seconds and then stop between each command, then prompting the user to say their next command. We also tested the mic at several distances and were able to get it to work from several feet away as long as it was quiet. At the end of the code, we then recalled the sh file with the subprocess library to have it loop and take in the next command.
 
 ## What works well?
 1. The controller is well connected to the four motors.
